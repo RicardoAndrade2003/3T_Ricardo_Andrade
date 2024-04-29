@@ -15,13 +15,44 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            background-color: chocolate;
+        }
+
+        .box{
+            position: absolute;
+            top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 30px;
+        color: white;
+        border-radius: 15px;
+        
+
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+        }
+        .sair{
+            border: 3px solid black;
+        }
+        
+        .sair:hover{
+           background-color: red;
+           color: white;}
       
     </style>
 </head>
+<img src="Imagem/download.jfif" alt="">
 <body>
     <h1>ESCOLA SECUNDARIA JORGE BARBOSA</h1>
     <H2>Gestão de professores</H2>
-
+    <br><br><br><br>
     <div>
         <table>
             <tr>
@@ -34,6 +65,7 @@
                 <th>Telefone</th>
                 <th>Disciplina</th>
                 <th>Escluir</th>
+                <th>Adicionar</th>
                 
             </tr>
             <tr>
@@ -44,20 +76,99 @@
                 <td>Madeiralzinho</td>
                 <td>Mariaandrade001@gmail.com</td>
                 <td>9976541</td>
-                <td>Matematica</td>
-                <td>X</td>
+                <td>Histori</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
             </tr>
             <tr>
-                <td>Ana</td>
-                <td>A</td>
-                <td>12º</td>
-                <td>Femenina</td>
+                <td>Paulo Andrade</td>
+                <td>B</td>
+                <td>11º</td>
+                <td>Masculino</td>
                 <td>Madeiralzinho</td>
-                <td>Ana002@gmail.com</td>
+                <td>Paulo002@gmail.com</td>
                 <td>9976541</td>
-                <td>X</td>
+                <td>Matematica</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
+            </tr>
+            <tr>
+                <td>João Andrade</td>
+                <td>C</td>
+                <td>12º</td>
+                <td>Masculino</td>
+                <td>Ribeirinha</td>
+                <td>João003@gmail.com</td>
+                <td>9978541</td>
+                <td>Física</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
+            </tr>
+            <tr>
+                <td>Joana Andrade</td>
+                <td>D</td>
+                <td>11º</td>
+                <td>Feminino</td>
+                <td>Ribeira Bote</td>
+                <td>Jana004@gmail.com</td>
+                <td>9976591</td>
+                <td>Frances</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
+            </tr>
+            <tr>
+                <td>Jose Andrade</td>
+                <td>E</td>
+                <td>12º</td>
+                <td>Masculino</td>
+                <td>Madeiralzinho</td>
+                <td>jOSE005@gmail.com</td>
+                <td>9976548</td>
+                <td>Ingles</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
+            </tr>
+            <tr>
+                <td>Carlos Andrade</td>
+                <td>F</td>
+                <td>12º</td>
+                <td>Masculino</td>
+                <td>Morada</td>
+                <td>carlos007@gmail.com</td>
+                <td>9876541</td>
+                <td>Lingua Portugues</td>
+                <form action="eliminar">
+                    <td><input type="submit" name="submit" id="submit" value="X"> </td>
+                </form>
+                <form action="Adicionar.html">
+                    <td><input type="submit" name="submit" id="submit" value="+"> </td>
+                </form>
             </tr>
         </table>
+    </div>
+
+    <div class="box">
+        <a href="Dashboard.html" class="sair">Voltar</a>
     </div>
     
 </body>
